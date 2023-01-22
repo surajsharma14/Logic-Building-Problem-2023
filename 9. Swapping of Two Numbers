@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   a=10,b=20,c;
+   c=a;
+   a=b;
+   b=c;
+   {
+      cout<<"Swapping Value is:" <<a<<" "<<b<<endl;
+   }
+ }
