@@ -1,0 +1,21 @@
+/*Circumference :-Circumference of circle is the distance around the circle. Calculate The Circumference of Circle By Given Formula
+Circumference = 2*π*r 
+Here PI (π) is a Greek Letter and r is a Radius (1/2 Of Diameter )
+PI (π) = 3.141592653589793 Approx. It Is A Constant Value for more about Circumference Click Here
+Area =π *r*r  
+*/
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  int rad;
+  float PI=3.14,area;
+  cout<<"Enter radius of circle: ";
+  cin>>rad;
+  area = PI*rad*rad;
+  cout<<"Area of Circle: "<<area<<endl;
+  return 0;
+  }
+
