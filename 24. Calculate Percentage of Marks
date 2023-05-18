@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main() {
+    float Subject1, Subject2, Subject3, Subject4, Subject5, Subject6,
+    Marks,Percentage;
+    
+    cout<<"Enter Marks of 6 subjects:";
+    cin>>Subject1>>Subject2>>Subject3>>Subject4>>Subject5>>Subject6;
+    
+    Marks = Subject1 + Subject2 + Subject3 + Subject4 + Subject5 + Subject6;
+    
+    Percentage = Marks / 6;
+    
+    cout<<"Percentage of Marks: "<< Percentage << "%" <<endl;
+    
+    return 0;
+}
